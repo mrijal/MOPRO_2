@@ -10,6 +10,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Tugas E Learning',
       theme: ThemeData(
+        colorScheme: ColorScheme.light(
+          primary: const Color(0xFF6D28D9),
+          secondary: const Color(0xFF8A4FB5),
+          surface: const Color(0xFFFFFFFF),
+          background: const Color(0xFFF5F5F5),
+          onPrimary: Colors.white,
+          onSurface: Colors.black87,
+        ),
         primarySwatch: const MaterialColor(0xFF6D28D9, {
           50: Color(0xFFE8D9F2),
           100: Color(0xFFD1B2E8),
